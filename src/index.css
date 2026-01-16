@@ -8,8 +8,8 @@
     font-family: sans-serif;
   }
 
-  
-/* HEADER */
+
+  /* HEADER */
 
   header {
     display: flex;
@@ -53,4 +53,19 @@
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  /* CONTENT */
+
+  .container {
+    background-color: black;
+    display: flex;
+  }
+
+  .content {
+    color: white;
+    min-height: 20vh;
+    width: 77%;
+    margin: 0 auto;
+    align-content: center;
   }
