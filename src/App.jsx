@@ -1,5 +1,7 @@
 import MainContent from "./components/MainContent"
 import MainHeader from "./components/MainHeader"
+import MainComics from "./components/MainComics"
+import MainJumbotron from "./components/MainJumbotron"
 
 function App() {
   
@@ -7,7 +9,9 @@ function App() {
     <>
       
       <MainHeader />
+      <MainJumbotron />
       <MainContent />
+      <MainComics />
     </>
   )
 }
