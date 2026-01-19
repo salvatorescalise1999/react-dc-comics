@@ -46,21 +46,9 @@
     padding-bottom: 40px;
   }
 
-  figure {
-    text-align: center;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 
   /* CONTENT */
 
-  .container {
-    background-color: black;
-    display: flex;
-  }
 
   .content {
     color: white;
@@ -76,3 +64,53 @@
     background-size: cover; /* 🔥 QUESTO è il punto chiave */
     background-image: url("src/assets/img/jumbotron.jpg");
   }
+
+  /* regole lista card fumetti */
+.current-series{
+     position: absolute;
+    left: 20%;
+     bottom: 43%;
+    transform: translateX(-50%);
+    background-color: #0282f9;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+   
+}
+
+#comics {
+  background-color: #1c1c1c;
+  padding: 40px 0;
+  color: white;
+}
+
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
+.prod-card {
+  cursor: pointer;
+}
+.prod-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;     /* formato copertina */
+  object-fit: cover;       /* come DC */
+  display: block;
+}
+.prod-card h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.prod-card img {
+  transition: transform 0.3s ease;
+}
+
+.prod-card:hover img {
+  transform: scale(1.05);
+}
