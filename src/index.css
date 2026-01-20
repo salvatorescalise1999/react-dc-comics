@@ -16,7 +16,7 @@
     justify-content: space-around;
   }
 
-  ul {
+  .navbar ul {
     display: flex;
     padding: 0;
     justify-content: center;
@@ -81,7 +81,7 @@
     align-items: center;
   }
 
-  .load-more h2{
+  .load-more h2 {
     background-color: #0282f9;
     color: white;
     padding: 10px 25px;
@@ -127,4 +127,34 @@
 
   .prod-card:hover img {
     transform: scale(1.05);
+  }
+
+  /* MAIN CONTENT INFOTRON*/
+  .infotron {
+    background-color: #0282f9;
+  }
+
+  .infotron ul {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 60px;
+  }
+
+  .infotron ul li {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .infotron ul li img {
+    height: 55px;
+    padding-right: 10px;
+  }
+
+  .visa {
+    height: 35px !important;
   }

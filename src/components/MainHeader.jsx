@@ -6,7 +6,7 @@ const MainHeader = () => {
                 <img src="src/assets/img/dc-logo.png" alt="logo" />
             </figure>
 
-            <nav>
+            <nav className="navbar">
                 <ul>
                     <li>
                         <a href="#">CHARACTERS</a>
